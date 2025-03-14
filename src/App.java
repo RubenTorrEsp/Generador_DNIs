@@ -4,7 +4,6 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println("NIT generado: " + generarNIT());
-        System.out.println("DNI generado: " + generarDNI());
     }
 
     public static String generarNIT() {
