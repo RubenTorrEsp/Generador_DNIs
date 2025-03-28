@@ -5,7 +5,7 @@ import java.util.Random;
 public class Spain {
 
     public Spain(){
-
+        System.out.println(generarDNI());
     }
 
     public static String generarDNI() {
