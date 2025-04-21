@@ -47,4 +47,8 @@ public class App {
 
         return digitoVerificacion;
     }
+
+    public static String generarDNI() {
+
+    }
 }
