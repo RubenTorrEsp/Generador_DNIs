@@ -3,8 +3,8 @@ import java.util.Random;
 public class App {
 
     public static void main(String[] args) {
-        String nit = generarNIT();
-        System.out.println("NIT generado: " + nit);
+        System.out.println("NIT generado: " + generarNIT());
+        System.out.println("DNI generado: " + generarDNI());
     }
 
     public static String generarNIT() {
