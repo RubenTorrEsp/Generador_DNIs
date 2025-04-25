@@ -11,7 +11,6 @@ public class Colombia {
         int primerDigito = 9;
         int segundoDigito = 0;
 
-        // Los siguientes 6 dígitos son aleatorios (sin considerar ceros a la izquierda)
         int siguiente6Digitos = random.nextInt(899999) + 100000;
 
         // Último dígito del NIT (dígito de verificación)
