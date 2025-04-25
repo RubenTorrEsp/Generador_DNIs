@@ -8,7 +8,6 @@ public class Colombia {
 
     public static String generarNIT() {
         Random random = new Random();
-        // Primeros dos dígitos del NIT son fijos para Colombia (sin considerar ceros a la izquierda)
         int primerDigito = 9;
         int segundoDigito = 0;
 
