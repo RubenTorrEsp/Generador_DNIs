@@ -23,7 +23,6 @@ public class Colombia {
     public static int generarDigitoVerificacion(int primerDigito, int segundoDigito, int siguiente6Digitos) {
         int[] pesos = { 71, 67, 59, 53, 47, 43, 41, 37 };
 
-        // Cálculo del digito de verificación
         int suma = primerDigito * pesos[0] + segundoDigito * pesos[1];
         int numero = siguiente6Digitos;
         for (int i = 0; i < 6; i++) {
