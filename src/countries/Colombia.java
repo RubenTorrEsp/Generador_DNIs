@@ -15,7 +15,6 @@ public class Colombia {
 
         int digitoVerificacion = generarDigitoVerificacion(primerDigito, segundoDigito, siguiente6Digitos);
 
-        // Construyendo el NIT completo como una cadena de texto
         String nitCompleto = String.format("%d%d%d-%d", primerDigito, segundoDigito, siguiente6Digitos, digitoVerificacion);
 
         return nitCompleto;
