@@ -13,7 +13,6 @@ public class Colombia {
 
         int siguiente6Digitos = random.nextInt(899999) + 100000;
 
-        // Último dígito del NIT (dígito de verificación)
         int digitoVerificacion = generarDigitoVerificacion(primerDigito, segundoDigito, siguiente6Digitos);
 
         // Construyendo el NIT completo como una cadena de texto
