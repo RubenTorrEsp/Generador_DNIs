@@ -4,7 +4,9 @@ import java.util.Random;
 
 public class Colombia {
 
-    public Colombia() {}
+    public Colombia() {
+        System.out.println("NIT generado: "+generarNIT());
+    }
 
     public static String generarNIT() {
         Random random = new Random();
