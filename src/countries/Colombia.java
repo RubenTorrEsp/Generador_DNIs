@@ -21,7 +21,6 @@ public class Colombia {
     }
 
     public static int generarDigitoVerificacion(int primerDigito, int segundoDigito, int siguiente6Digitos) {
-        // Peso de cada uno de los 8 primeros números en el NIT
         int[] pesos = { 71, 67, 59, 53, 47, 43, 41, 37 };
 
         // Cálculo del digito de verificación
