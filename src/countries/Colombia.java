@@ -15,9 +15,7 @@ public class Colombia {
 
         int digitoVerificacion = generarDigitoVerificacion(primerDigito, segundoDigito, siguiente6Digitos);
 
-        String nitCompleto = String.format("%d%d%d-%d", primerDigito, segundoDigito, siguiente6Digitos, digitoVerificacion);
-
-        return nitCompleto;
+        return String.format("%d%d%d-%d", primerDigito, segundoDigito, siguiente6Digitos, digitoVerificacion);
     }
 
     public static int generarDigitoVerificacion(int primerDigito, int segundoDigito, int siguiente6Digitos) {
