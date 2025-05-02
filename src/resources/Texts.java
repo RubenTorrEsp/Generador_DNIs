@@ -6,6 +6,7 @@ public class Texts {
             Elija el país del que quiera generar el documento:
             Colombia
             España
+            Mexico
             
             Cancelar""";
 
