@@ -41,5 +41,30 @@ public class Mexico {
 
         return curp;
     }
+    private static char primeraVocalInterna(String s) {
+        for (int i = 1; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if ("AEIOU".indexOf(c) != -1) return c;
+        }
+        return 'X';
+    }
 
+    private static char primeraConsonanteInterna(String s) {
+        for (int i = 1; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if ("BCDFGHJKLMNÑPQRSTVWXYZ".indexOf(c) != -1) return c;
+        }
+        return 'X';
+    }
+
+    // Ejemplo de uso
+    public static void main(String[] args) {
+        String curp = generarCURP(
+                "Juan", "Pérez", "López",
+                LocalDate.of(1990, 6, 15),
+                'H',
+                "JAL" // Estado: Jalisco
+        );
+        System.out.println("CURP de prueba: " + curp);
+    }
 }
